@@ -1,0 +1,122 @@
+{
+  "benchmarkEngineResults" : {
+    "Stardog" : {
+      "name" : "Stardog",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 50000 b2 2nd argument bound_1" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound_0" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings_0" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound_1" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings_1" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound_0" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings_0" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound_1" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a no bindings_0" : {
+              "query" : "join1 50000 a no bindings",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound_0" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings_1" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 1st argument bound_1" : {
+              "query" : "join1 50000 a 1st argument bound",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a no bindings_1" : {
+              "query" : "join1 50000 a no bindings",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 1st argument bound_0" : {
+              "query" : "join1 50000 a 1st argument bound",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound_1" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound_1" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound_0" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound_0" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        }
+      }
+    }
+  }
+}
