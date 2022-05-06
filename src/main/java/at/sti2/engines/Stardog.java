@@ -43,7 +43,6 @@ public class Stardog implements BenchmarkEngine {
             log.error("Error setting up docker for stardog!", e);
         }
     }
-
     @Override
     public String getEngineIdentifier() {
         return ENGINE_IDENTIFIER;
