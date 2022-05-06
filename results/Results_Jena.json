@@ -1,0 +1,418 @@
+{
+  "benchmarkEngineResults" : {
+    "Jena" : {
+      "name" : "Jena",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a no bindings" : {
+              "query" : "join1 50000 a no bindings",
+              "timeSpent" : 900002,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 58024,
+              "numOfResults" : 1000,
+              "exception" : null
+            },
+            "join1 50000 a 1st argument bound" : {
+              "query" : "join1 50000 a 1st argument bound",
+              "timeSpent" : 218571,
+              "numOfResults" : 1000,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 900000,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 89,
+              "numOfResults" : 1000,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 930,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 104873,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 1099,
+              "numOfResults" : 908,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 2718,
+              "numOfResults" : 931262,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : { }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : { }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 1000,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 76718,
+              "numOfResults" : 499549,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 1013,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : { }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : { }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 500,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 35363,
+              "numOfResults" : 500,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 239115,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : { }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : { }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 250000 b2 no bindings" : {
+              "query" : "join1 250000 b2 no bindings",
+              "timeSpent" : 900000,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 b2 2nd argument bound" : {
+              "query" : "join1 250000 b2 2nd argument bound",
+              "timeSpent" : 900001,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 a no bindings" : {
+              "query" : "join1 250000 a no bindings",
+              "timeSpent" : 900000,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 b1 2nd argument bound" : {
+              "query" : "join1 250000 b1 2nd argument bound",
+              "timeSpent" : 900001,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 a 1st argument bound" : {
+              "query" : "join1 250000 a 1st argument bound",
+              "timeSpent" : 900001,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 b2 1st argument bound" : {
+              "query" : "join1 250000 b2 1st argument bound",
+              "timeSpent" : 900001,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 b1 1st argument bound" : {
+              "query" : "join1 250000 b1 1st argument bound",
+              "timeSpent" : 900000,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 a1 2nd argument bound" : {
+              "query" : "join1 250000 a1 2nd argument bound",
+              "timeSpent" : 900000,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            },
+            "join1 250000 b1 no bindings" : {
+              "query" : "join1 250000 b1 no bindings",
+              "timeSpent" : 900001,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : { }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : { }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 1000,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 346518,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 1002,
+              "numOfResults" : 1000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : { }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : { }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : { }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 500,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 9823,
+              "numOfResults" : 500,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 60974,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 379,
+              "numOfResults" : 488,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 36641,
+              "numOfResults" : 480,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 53844,
+              "numOfResults" : 231646,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 393,
+              "numOfResults" : 491,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 57585,
+              "numOfResults" : 487,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 189131,
+              "numOfResults" : 239043,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : {
+            "wine" : {
+              "query" : "wine",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : "java.lang.NullPointerException"
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 7,
+              "numOfResults" : 979,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 8867,
+              "numOfResults" : 468210,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 113,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 1000,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 28551,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 230,
+              "numOfResults" : 1000,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : { }
+        }
+      }
+    }
+  }
+}

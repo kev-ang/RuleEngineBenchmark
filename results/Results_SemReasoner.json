@@ -1,0 +1,4850 @@
+{
+  "benchmarkEngineResults" : {
+    "SemReasoner_Persistent" : {
+      "name" : "SemReasoner_Persistent",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a1 1st argument bound" : {
+              "query" : "join1 50000 a1 1st argument bound",
+              "timeSpent" : 137,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 132,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 266,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 5x1" : {
+              "query" : "join1 50000 a 5x1",
+              "timeSpent" : 87779,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 28569,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 no bindings" : {
+              "query" : "join1 50000 a1 no bindings",
+              "timeSpent" : 94200,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 1865,
+              "numOfResults" : 931239,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : {
+            "Negation_SameGeneration_6000 query" : {
+              "query" : "Negation_SameGeneration_6000 query",
+              "timeSpent" : 4734,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : {
+            "Join2 query for A" : {
+              "query" : "Join2 query for A",
+              "timeSpent" : 145564,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for B" : {
+              "query" : "Join2 query for B",
+              "timeSpent" : 146549,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for C" : {
+              "query" : "Join2 query for C",
+              "timeSpent" : 146464,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for D" : {
+              "query" : "Join2 query for D",
+              "timeSpent" : 145356,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for E" : {
+              "query" : "Join2 query for E",
+              "timeSpent" : 145626,
+              "numOfResults" : 2476099,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_no_cyc query" : {
+              "query" : "d1000_parsize500000_no_cyc query",
+              "timeSpent" : 65527,
+              "numOfResults" : 499579,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : {
+            "Negation_SameGeneration_24000 query" : {
+              "query" : "Negation_SameGeneration_24000 query",
+              "timeSpent" : 13278,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_cyc query",
+              "timeSpent" : 9157,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 3523,
+              "numOfResults" : 471420,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : {
+            "LUBM 50 query for GraduateStudent" : {
+              "query" : "LUBM 50 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 50 query for Advisor" : {
+              "query" : "LUBM 50 query for Advisor",
+              "timeSpent" : 13484,
+              "numOfResults" : 13639,
+              "exception" : null
+            },
+            "LUBM 50 query for takesCourse" : {
+              "query" : "LUBM 50 query for takesCourse",
+              "timeSpent" : 2413,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 250000 a1 no bindings" : {
+              "query" : "join1 250000 a1 no bindings",
+              "timeSpent" : 294408,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 a 5x1" : {
+              "query" : "join1 250000 a 5x1",
+              "timeSpent" : 268964,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 no bindings" : {
+              "query" : "join1 250000 b2 no bindings",
+              "timeSpent" : 23849,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 2nd argument bound" : {
+              "query" : "join1 250000 b2 2nd argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 1st argument bound" : {
+              "query" : "join1 250000 a1 1st argument bound",
+              "timeSpent" : 306,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 2nd argument bound" : {
+              "query" : "join1 250000 b1 2nd argument bound",
+              "timeSpent" : 245,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b2 1st argument bound" : {
+              "query" : "join1 250000 b2 1st argument bound",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 1st argument bound" : {
+              "query" : "join1 250000 b1 1st argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 2nd argument bound" : {
+              "query" : "join1 250000 a1 2nd argument bound",
+              "timeSpent" : 240,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 no bindings" : {
+              "query" : "join1 250000 b1 no bindings",
+              "timeSpent" : 90061,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : {
+            "LUBM 10 query for GraduateStudent" : {
+              "query" : "LUBM 10 query for GraduateStudent",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 10 query for Advisor" : {
+              "query" : "LUBM 10 query for Advisor",
+              "timeSpent" : 3166,
+              "numOfResults" : 2540,
+              "exception" : null
+            },
+            "LUBM 10 query for takesCourse" : {
+              "query" : "LUBM 10 query for takesCourse",
+              "timeSpent" : 568,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : {
+            "Mondial query" : {
+              "query" : "Mondial query",
+              "timeSpent" : 11,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_cyc query" : {
+              "query" : "d1000_parsize500000_cyc query",
+              "timeSpent" : 245321,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 14638,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : {
+            "DBLP query" : {
+              "query" : "DBLP query",
+              "timeSpent" : 11381,
+              "numOfResults" : 4035,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : {
+            "Negation_SameGeneration_12000 query" : {
+              "query" : "Negation_SameGeneration_12000 query",
+              "timeSpent" : 7436,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 14252,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 992,
+              "numOfResults" : 698472,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_cyc query",
+              "timeSpent" : 5159,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_no_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_no_cyc query",
+              "timeSpent" : 4232,
+              "numOfResults" : 231598,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_no_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_no_cyc query",
+              "timeSpent" : 7870,
+              "numOfResults" : 244757,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : {
+            "Wine query" : {
+              "query" : "Wine query",
+              "timeSpent" : 25935,
+              "numOfResults" : 89,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize50000_no_cyc query" : {
+              "query" : "d1000_parsize50000_no_cyc query",
+              "timeSpent" : 6335,
+              "numOfResults" : 470194,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 4905,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "d1000_parsize_50000_cyc query" : {
+              "query" : "d1000_parsize_50000_cyc query",
+              "timeSpent" : 20806,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : {
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 5208,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        }
+      }
+    },
+    "SemReasoner_Persistent_TopDown" : {
+      "name" : "SemReasoner_Persistent_TopDown",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a1 1st argument bound" : {
+              "query" : "join1 50000 a1 1st argument bound",
+              "timeSpent" : 129,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 133,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 132,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 5x1" : {
+              "query" : "join1 50000 a 5x1",
+              "timeSpent" : 89482,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 28866,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 no bindings" : {
+              "query" : "join1 50000 a1 no bindings",
+              "timeSpent" : 91370,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 1861,
+              "numOfResults" : 931239,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : {
+            "Negation_SameGeneration_6000 query" : {
+              "query" : "Negation_SameGeneration_6000 query",
+              "timeSpent" : 14274,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : {
+            "Join2 query for A" : {
+              "query" : "Join2 query for A",
+              "timeSpent" : 147968,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for B" : {
+              "query" : "Join2 query for B",
+              "timeSpent" : 147746,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for C" : {
+              "query" : "Join2 query for C",
+              "timeSpent" : 148047,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for D" : {
+              "query" : "Join2 query for D",
+              "timeSpent" : 147385,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for E" : {
+              "query" : "Join2 query for E",
+              "timeSpent" : 147935,
+              "numOfResults" : 2476099,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_no_cyc query" : {
+              "query" : "d1000_parsize500000_no_cyc query",
+              "timeSpent" : 82526,
+              "numOfResults" : 499579,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : {
+            "Negation_SameGeneration_24000 query" : {
+              "query" : "Negation_SameGeneration_24000 query",
+              "timeSpent" : 42932,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_cyc query",
+              "timeSpent" : 8673,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 3386,
+              "numOfResults" : 471420,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : {
+            "LUBM 50 query for GraduateStudent" : {
+              "query" : "LUBM 50 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 50 query for Advisor" : {
+              "query" : "LUBM 50 query for Advisor",
+              "timeSpent" : 14624,
+              "numOfResults" : 13639,
+              "exception" : null
+            },
+            "LUBM 50 query for takesCourse" : {
+              "query" : "LUBM 50 query for takesCourse",
+              "timeSpent" : 2410,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 250000 a1 no bindings" : {
+              "query" : "join1 250000 a1 no bindings",
+              "timeSpent" : 299257,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 a 5x1" : {
+              "query" : "join1 250000 a 5x1",
+              "timeSpent" : 277725,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 no bindings" : {
+              "query" : "join1 250000 b2 no bindings",
+              "timeSpent" : 23713,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 2nd argument bound" : {
+              "query" : "join1 250000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 1st argument bound" : {
+              "query" : "join1 250000 a1 1st argument bound",
+              "timeSpent" : 323,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 2nd argument bound" : {
+              "query" : "join1 250000 b1 2nd argument bound",
+              "timeSpent" : 240,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b2 1st argument bound" : {
+              "query" : "join1 250000 b2 1st argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 1st argument bound" : {
+              "query" : "join1 250000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 2nd argument bound" : {
+              "query" : "join1 250000 a1 2nd argument bound",
+              "timeSpent" : 239,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 no bindings" : {
+              "query" : "join1 250000 b1 no bindings",
+              "timeSpent" : 90059,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : {
+            "LUBM 10 query for GraduateStudent" : {
+              "query" : "LUBM 10 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 10 query for Advisor" : {
+              "query" : "LUBM 10 query for Advisor",
+              "timeSpent" : 3174,
+              "numOfResults" : 2540,
+              "exception" : null
+            },
+            "LUBM 10 query for takesCourse" : {
+              "query" : "LUBM 10 query for takesCourse",
+              "timeSpent" : 551,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : {
+            "Mondial query" : {
+              "query" : "Mondial query",
+              "timeSpent" : 9,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_cyc query" : {
+              "query" : "d1000_parsize500000_cyc query",
+              "timeSpent" : 321227,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 13861,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 62,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 9,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : {
+            "DBLP query" : {
+              "query" : "DBLP query",
+              "timeSpent" : 11460,
+              "numOfResults" : 4035,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : {
+            "Negation_SameGeneration_12000 query" : {
+              "query" : "Negation_SameGeneration_12000 query",
+              "timeSpent" : 23795,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 13252,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 883,
+              "numOfResults" : 698472,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_cyc query",
+              "timeSpent" : 4921,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_no_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_no_cyc query",
+              "timeSpent" : 3993,
+              "numOfResults" : 231598,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_no_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_no_cyc query",
+              "timeSpent" : 7417,
+              "numOfResults" : 244757,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : {
+            "Wine query" : {
+              "query" : "Wine query",
+              "timeSpent" : 823517,
+              "numOfResults" : 89,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize50000_no_cyc query" : {
+              "query" : "d1000_parsize50000_no_cyc query",
+              "timeSpent" : 10539,
+              "numOfResults" : 470194,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 4875,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "d1000_parsize_50000_cyc query" : {
+              "query" : "d1000_parsize_50000_cyc query",
+              "timeSpent" : 35984,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : {
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 5206,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        }
+      }
+    },
+    "SemReasoner_Mixed" : {
+      "name" : "SemReasoner_Mixed",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a1 1st argument bound" : {
+              "query" : "join1 50000 a1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 5x1" : {
+              "query" : "join1 50000 a 5x1",
+              "timeSpent" : 74319,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 24893,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 no bindings" : {
+              "query" : "join1 50000 a1 no bindings",
+              "timeSpent" : 74906,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 1209,
+              "numOfResults" : 931239,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : {
+            "Negation_SameGeneration_6000 query" : {
+              "query" : "Negation_SameGeneration_6000 query",
+              "timeSpent" : 4222,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : {
+            "Join2 query for A" : {
+              "query" : "Join2 query for A",
+              "timeSpent" : 148202,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for B" : {
+              "query" : "Join2 query for B",
+              "timeSpent" : 147762,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for C" : {
+              "query" : "Join2 query for C",
+              "timeSpent" : 147883,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for D" : {
+              "query" : "Join2 query for D",
+              "timeSpent" : 148408,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for E" : {
+              "query" : "Join2 query for E",
+              "timeSpent" : 147558,
+              "numOfResults" : 2476099,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_no_cyc query" : {
+              "query" : "d1000_parsize500000_no_cyc query",
+              "timeSpent" : 63058,
+              "numOfResults" : 499579,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : {
+            "Negation_SameGeneration_24000 query" : {
+              "query" : "Negation_SameGeneration_24000 query",
+              "timeSpent" : 12163,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_cyc query",
+              "timeSpent" : 10553,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1290,
+              "numOfResults" : 471420,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : {
+            "LUBM 50 query for GraduateStudent" : {
+              "query" : "LUBM 50 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 50 query for Advisor" : {
+              "query" : "LUBM 50 query for Advisor",
+              "timeSpent" : 3916,
+              "numOfResults" : 13639,
+              "exception" : null
+            },
+            "LUBM 50 query for takesCourse" : {
+              "query" : "LUBM 50 query for takesCourse",
+              "timeSpent" : 1462,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 250000 a1 no bindings" : {
+              "query" : "join1 250000 a1 no bindings",
+              "timeSpent" : 326866,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 a 5x1" : {
+              "query" : "join1 250000 a 5x1",
+              "timeSpent" : 304810,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 no bindings" : {
+              "query" : "join1 250000 b2 no bindings",
+              "timeSpent" : 18792,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 2nd argument bound" : {
+              "query" : "join1 250000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 1st argument bound" : {
+              "query" : "join1 250000 a1 1st argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 2nd argument bound" : {
+              "query" : "join1 250000 b1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b2 1st argument bound" : {
+              "query" : "join1 250000 b2 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 1st argument bound" : {
+              "query" : "join1 250000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 2nd argument bound" : {
+              "query" : "join1 250000 a1 2nd argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 no bindings" : {
+              "query" : "join1 250000 b1 no bindings",
+              "timeSpent" : 98695,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : {
+            "LUBM 10 query for GraduateStudent" : {
+              "query" : "LUBM 10 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 10 query for Advisor" : {
+              "query" : "LUBM 10 query for Advisor",
+              "timeSpent" : 710,
+              "numOfResults" : 2540,
+              "exception" : null
+            },
+            "LUBM 10 query for takesCourse" : {
+              "query" : "LUBM 10 query for takesCourse",
+              "timeSpent" : 273,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : {
+            "Mondial query" : {
+              "query" : "Mondial query",
+              "timeSpent" : 9,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_cyc query" : {
+              "query" : "d1000_parsize500000_cyc query",
+              "timeSpent" : 233561,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 11080,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : {
+            "DBLP query" : {
+              "query" : "DBLP query",
+              "timeSpent" : 2580,
+              "numOfResults" : 4035,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : {
+            "Negation_SameGeneration_12000 query" : {
+              "query" : "Negation_SameGeneration_12000 query",
+              "timeSpent" : 6736,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 10923,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 724,
+              "numOfResults" : 698472,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_cyc query",
+              "timeSpent" : 5663,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_no_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_no_cyc query",
+              "timeSpent" : 4626,
+              "numOfResults" : 231598,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_no_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_no_cyc query",
+              "timeSpent" : 9171,
+              "numOfResults" : 244757,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : {
+            "Wine query" : {
+              "query" : "Wine query",
+              "timeSpent" : 30057,
+              "numOfResults" : 89,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize50000_no_cyc query" : {
+              "query" : "d1000_parsize50000_no_cyc query",
+              "timeSpent" : 5342,
+              "numOfResults" : 470194,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 2512,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "d1000_parsize_50000_cyc query" : {
+              "query" : "d1000_parsize_50000_cyc query",
+              "timeSpent" : 18287,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : {
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 2519,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        }
+      }
+    },
+    "SemReasoner_Memory" : {
+      "name" : "SemReasoner_Memory",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a1 1st argument bound" : {
+              "query" : "join1 50000 a1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 5x1" : {
+              "query" : "join1 50000 a 5x1",
+              "timeSpent" : 72665,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 24990,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 no bindings" : {
+              "query" : "join1 50000 a1 no bindings",
+              "timeSpent" : 73039,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 1341,
+              "numOfResults" : 931239,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : {
+            "Negation_SameGeneration_6000 query" : {
+              "query" : "Negation_SameGeneration_6000 query",
+              "timeSpent" : 3907,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : {
+            "Join2 query for A" : {
+              "query" : "Join2 query for A",
+              "timeSpent" : 148011,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for B" : {
+              "query" : "Join2 query for B",
+              "timeSpent" : 148208,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for C" : {
+              "query" : "Join2 query for C",
+              "timeSpent" : 148432,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for D" : {
+              "query" : "Join2 query for D",
+              "timeSpent" : 147401,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for E" : {
+              "query" : "Join2 query for E",
+              "timeSpent" : 148087,
+              "numOfResults" : 2476099,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_no_cyc query" : {
+              "query" : "d1000_parsize500000_no_cyc query",
+              "timeSpent" : 69215,
+              "numOfResults" : 499579,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : {
+            "Negation_SameGeneration_24000 query" : {
+              "query" : "Negation_SameGeneration_24000 query",
+              "timeSpent" : 12120,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_cyc query",
+              "timeSpent" : 10707,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 627,
+              "numOfResults" : 471420,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : {
+            "LUBM 50 query for GraduateStudent" : {
+              "query" : "LUBM 50 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 50 query for Advisor" : {
+              "query" : "LUBM 50 query for Advisor",
+              "timeSpent" : 2776,
+              "numOfResults" : 13639,
+              "exception" : null
+            },
+            "LUBM 50 query for takesCourse" : {
+              "query" : "LUBM 50 query for takesCourse",
+              "timeSpent" : 95,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 250000 a1 no bindings" : {
+              "query" : "join1 250000 a1 no bindings",
+              "timeSpent" : 322737,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 a 5x1" : {
+              "query" : "join1 250000 a 5x1",
+              "timeSpent" : 299725,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 no bindings" : {
+              "query" : "join1 250000 b2 no bindings",
+              "timeSpent" : 20958,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 2nd argument bound" : {
+              "query" : "join1 250000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 1st argument bound" : {
+              "query" : "join1 250000 a1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 2nd argument bound" : {
+              "query" : "join1 250000 b1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b2 1st argument bound" : {
+              "query" : "join1 250000 b2 1st argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 1st argument bound" : {
+              "query" : "join1 250000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 2nd argument bound" : {
+              "query" : "join1 250000 a1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 no bindings" : {
+              "query" : "join1 250000 b1 no bindings",
+              "timeSpent" : 99172,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : {
+            "LUBM 10 query for GraduateStudent" : {
+              "query" : "LUBM 10 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 10 query for Advisor" : {
+              "query" : "LUBM 10 query for Advisor",
+              "timeSpent" : 530,
+              "numOfResults" : 2540,
+              "exception" : null
+            },
+            "LUBM 10 query for takesCourse" : {
+              "query" : "LUBM 10 query for takesCourse",
+              "timeSpent" : 22,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : {
+            "Mondial query" : {
+              "query" : "Mondial query",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_cyc query" : {
+              "query" : "d1000_parsize500000_cyc query",
+              "timeSpent" : 247447,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 8944,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : {
+            "DBLP query" : {
+              "query" : "DBLP query",
+              "timeSpent" : 394,
+              "numOfResults" : 4035,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : {
+            "Negation_SameGeneration_12000 query" : {
+              "query" : "Negation_SameGeneration_12000 query",
+              "timeSpent" : 6794,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 8906,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 718,
+              "numOfResults" : 698472,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_cyc query",
+              "timeSpent" : 5648,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_no_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_no_cyc query",
+              "timeSpent" : 4575,
+              "numOfResults" : 231598,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_no_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_no_cyc query",
+              "timeSpent" : 9208,
+              "numOfResults" : 244757,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : {
+            "Wine query" : {
+              "query" : "Wine query",
+              "timeSpent" : 25433,
+              "numOfResults" : 89,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize50000_no_cyc query" : {
+              "query" : "d1000_parsize50000_no_cyc query",
+              "timeSpent" : 5454,
+              "numOfResults" : 470194,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 886,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "d1000_parsize_50000_cyc query" : {
+              "query" : "d1000_parsize_50000_cyc query",
+              "timeSpent" : 18393,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : {
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 899,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        }
+      }
+    },
+    "Stardog" : {
+      "name" : "Stardog",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a no bindings" : {
+              "query" : "join1 50000 a no bindings",
+              "timeSpent" : 872,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 15,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 1st argument bound" : {
+              "query" : "join1 50000 a 1st argument bound",
+              "timeSpent" : 41,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 14,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 15,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 20,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 16,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 15,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 20,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : { }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : { }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 9,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 19,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : { }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : { }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 9,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 9,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 22,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : { }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : { }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : { }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : { }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : { }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 11,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 24,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 9,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : { }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : { }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : { }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 13,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 10,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 28,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 11,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 23,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "same generation 1st argument bound" : {
+              "query" : "same generation 1st argument bound",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation 2nd argument bound" : {
+              "query" : "same generation 2nd argument bound",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "same generation no bindings" : {
+              "query" : "same generation no bindings",
+              "timeSpent" : 22,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : { }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 11,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 32,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 10,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "transitive closure 1st argument bound" : {
+              "query" : "transitive closure 1st argument bound",
+              "timeSpent" : 13,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure no bindings" : {
+              "query" : "transitive closure no bindings",
+              "timeSpent" : 36,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "transitive closure 2nd argument bound" : {
+              "query" : "transitive closure 2nd argument bound",
+              "timeSpent" : 11,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : { }
+        }
+      }
+    },
+    "SemReasoner_Mixed_TopDown" : {
+      "name" : "SemReasoner_Mixed_TopDown",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a1 1st argument bound" : {
+              "query" : "join1 50000 a1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 5x1" : {
+              "query" : "join1 50000 a 5x1",
+              "timeSpent" : 70822,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 24986,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 no bindings" : {
+              "query" : "join1 50000 a1 no bindings",
+              "timeSpent" : 70799,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 1242,
+              "numOfResults" : 931239,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : {
+            "Negation_SameGeneration_6000 query" : {
+              "query" : "Negation_SameGeneration_6000 query",
+              "timeSpent" : 21632,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : {
+            "Join2 query for A" : {
+              "query" : "Join2 query for A",
+              "timeSpent" : 147255,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for B" : {
+              "query" : "Join2 query for B",
+              "timeSpent" : 147418,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for C" : {
+              "query" : "Join2 query for C",
+              "timeSpent" : 147116,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for D" : {
+              "query" : "Join2 query for D",
+              "timeSpent" : 147481,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for E" : {
+              "query" : "Join2 query for E",
+              "timeSpent" : 147663,
+              "numOfResults" : 2476099,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_no_cyc query" : {
+              "query" : "d1000_parsize500000_no_cyc query",
+              "timeSpent" : 111892,
+              "numOfResults" : 499579,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : {
+            "Negation_SameGeneration_24000 query" : {
+              "query" : "Negation_SameGeneration_24000 query",
+              "timeSpent" : 40923,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_cyc query",
+              "timeSpent" : 10256,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1487,
+              "numOfResults" : 471420,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : {
+            "LUBM 50 query for GraduateStudent" : {
+              "query" : "LUBM 50 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 50 query for Advisor" : {
+              "query" : "LUBM 50 query for Advisor",
+              "timeSpent" : 4594,
+              "numOfResults" : 13639,
+              "exception" : null
+            },
+            "LUBM 50 query for takesCourse" : {
+              "query" : "LUBM 50 query for takesCourse",
+              "timeSpent" : 1451,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 250000 a1 no bindings" : {
+              "query" : "join1 250000 a1 no bindings",
+              "timeSpent" : 307567,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 a 5x1" : {
+              "query" : "join1 250000 a 5x1",
+              "timeSpent" : 287682,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 no bindings" : {
+              "query" : "join1 250000 b2 no bindings",
+              "timeSpent" : 18986,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 2nd argument bound" : {
+              "query" : "join1 250000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 1st argument bound" : {
+              "query" : "join1 250000 a1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 2nd argument bound" : {
+              "query" : "join1 250000 b1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b2 1st argument bound" : {
+              "query" : "join1 250000 b2 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 1st argument bound" : {
+              "query" : "join1 250000 b1 1st argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 2nd argument bound" : {
+              "query" : "join1 250000 a1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 no bindings" : {
+              "query" : "join1 250000 b1 no bindings",
+              "timeSpent" : 99697,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : {
+            "LUBM 10 query for GraduateStudent" : {
+              "query" : "LUBM 10 query for GraduateStudent",
+              "timeSpent" : 3,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 10 query for Advisor" : {
+              "query" : "LUBM 10 query for Advisor",
+              "timeSpent" : 791,
+              "numOfResults" : 2540,
+              "exception" : null
+            },
+            "LUBM 10 query for takesCourse" : {
+              "query" : "LUBM 10 query for takesCourse",
+              "timeSpent" : 258,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : {
+            "Mondial query" : {
+              "query" : "Mondial query",
+              "timeSpent" : 8,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_cyc query" : {
+              "query" : "d1000_parsize500000_cyc query",
+              "timeSpent" : 309242,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 10593,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : {
+            "DBLP query" : {
+              "query" : "DBLP query",
+              "timeSpent" : 2596,
+              "numOfResults" : 4035,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : {
+            "Negation_SameGeneration_12000 query" : {
+              "query" : "Negation_SameGeneration_12000 query",
+              "timeSpent" : 26172,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 10279,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 791,
+              "numOfResults" : 698472,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_cyc query",
+              "timeSpent" : 5461,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_no_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_no_cyc query",
+              "timeSpent" : 4475,
+              "numOfResults" : 231598,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_no_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_no_cyc query",
+              "timeSpent" : 8800,
+              "numOfResults" : 244757,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : {
+            "Wine query" : {
+              "query" : "Wine query",
+              "timeSpent" : 900000,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize50000_no_cyc query" : {
+              "query" : "d1000_parsize50000_no_cyc query",
+              "timeSpent" : 10145,
+              "numOfResults" : 470194,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 2561,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "d1000_parsize_50000_cyc query" : {
+              "query" : "d1000_parsize_50000_cyc query",
+              "timeSpent" : 33938,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : {
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 2500,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        }
+      }
+    },
+    "SemReasoner_Memory_TopDown" : {
+      "name" : "SemReasoner_Memory_TopDown",
+      "benchmarkTestCaseResults" : {
+        "large_joins_join1_d1000_relsize50000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize50000_cyc",
+          "queryResults" : {
+            "join1 50000 a1 1st argument bound" : {
+              "query" : "join1 50000 a1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 2nd argument bound" : {
+              "query" : "join1 50000 b1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 2nd argument bound" : {
+              "query" : "join1 50000 a1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b1 1st argument bound" : {
+              "query" : "join1 50000 b1 1st argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 b2 1st argument bound" : {
+              "query" : "join1 50000 b2 1st argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a 5x1" : {
+              "query" : "join1 50000 a 5x1",
+              "timeSpent" : 70266,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b1 no bindings" : {
+              "query" : "join1 50000 b1 no bindings",
+              "timeSpent" : 25758,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 2nd argument bound" : {
+              "query" : "join1 50000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 50000 a1 no bindings" : {
+              "query" : "join1 50000 a1 no bindings",
+              "timeSpent" : 73205,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 50000 b2 no bindings" : {
+              "query" : "join1 50000 b2 no bindings",
+              "timeSpent" : 1212,
+              "numOfResults" : 931239,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_6000" : {
+          "name" : "negation_same_generation_SameGeneration_6000",
+          "queryResults" : {
+            "Negation_SameGeneration_6000 query" : {
+              "query" : "Negation_SameGeneration_6000 query",
+              "timeSpent" : 21675,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join2_join2" : {
+          "name" : "large_joins_join2_join2",
+          "queryResults" : {
+            "Join2 query for A" : {
+              "query" : "Join2 query for A",
+              "timeSpent" : 147601,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for B" : {
+              "query" : "Join2 query for B",
+              "timeSpent" : 147629,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for C" : {
+              "query" : "Join2 query for C",
+              "timeSpent" : 147334,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for D" : {
+              "query" : "Join2 query for D",
+              "timeSpent" : 147907,
+              "numOfResults" : 2476099,
+              "exception" : null
+            },
+            "Join2 query for E" : {
+              "query" : "Join2 query for E",
+              "timeSpent" : 148444,
+              "numOfResults" : 2476099,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_SameSynset" : {
+          "name" : "datalog_recursion_wordnet_SameSynset",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 6,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_no_cyc query" : {
+              "query" : "d1000_parsize500000_no_cyc query",
+              "timeSpent" : 117170,
+              "numOfResults" : 499579,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_All_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_24000" : {
+          "name" : "negation_same_generation_SameGeneration_24000",
+          "queryResults" : {
+            "Negation_SameGeneration_24000 query" : {
+              "query" : "Negation_SameGeneration_24000 query",
+              "timeSpent" : 40786,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_cyc query",
+              "timeSpent" : 10149,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_All_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 629,
+              "numOfResults" : 471420,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm50" : {
+          "name" : "large_joins_lubm_derived_lubm50",
+          "queryResults" : {
+            "LUBM 50 query for GraduateStudent" : {
+              "query" : "LUBM 50 query for GraduateStudent",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 50 query for Advisor" : {
+              "query" : "LUBM 50 query for Advisor",
+              "timeSpent" : 3900,
+              "numOfResults" : 13639,
+              "exception" : null
+            },
+            "LUBM 50 query for takesCourse" : {
+              "query" : "LUBM 50 query for takesCourse",
+              "timeSpent" : 107,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Antonyms" : {
+          "name" : "datalog_recursion_wordnet_Antonyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_join1_d1000_relsize250000_cyc" : {
+          "name" : "large_joins_join1_d1000_relsize250000_cyc",
+          "queryResults" : {
+            "join1 250000 a1 no bindings" : {
+              "query" : "join1 250000 a1 no bindings",
+              "timeSpent" : 304945,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 a 5x1" : {
+              "query" : "join1 250000 a 5x1",
+              "timeSpent" : 286789,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 no bindings" : {
+              "query" : "join1 250000 b2 no bindings",
+              "timeSpent" : 20708,
+              "numOfResults" : 1000000,
+              "exception" : null
+            },
+            "join1 250000 b2 2nd argument bound" : {
+              "query" : "join1 250000 b2 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 1st argument bound" : {
+              "query" : "join1 250000 a1 1st argument bound",
+              "timeSpent" : 2,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 2nd argument bound" : {
+              "query" : "join1 250000 b1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b2 1st argument bound" : {
+              "query" : "join1 250000 b2 1st argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 1st argument bound" : {
+              "query" : "join1 250000 b1 1st argument bound",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 a1 2nd argument bound" : {
+              "query" : "join1 250000 a1 2nd argument bound",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "join1 250000 b1 no bindings" : {
+              "query" : "join1 250000 b1 no bindings",
+              "timeSpent" : 99639,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_lubm_derived_lubm10" : {
+          "name" : "large_joins_lubm_derived_lubm10",
+          "queryResults" : {
+            "LUBM 10 query for GraduateStudent" : {
+              "query" : "LUBM 10 query for GraduateStudent",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "LUBM 10 query for Advisor" : {
+              "query" : "LUBM 10 query for Advisor",
+              "timeSpent" : 638,
+              "numOfResults" : 2540,
+              "exception" : null
+            },
+            "LUBM 10 query for takesCourse" : {
+              "query" : "LUBM 10 query for takesCourse",
+              "timeSpent" : 29,
+              "numOfResults" : 1,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_mondial_mondial" : {
+          "name" : "large_joins_mondial_mondial",
+          "queryResults" : {
+            "Mondial query" : {
+              "query" : "Mondial query",
+              "timeSpent" : 10,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize500000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize500000_cyc",
+          "queryResults" : {
+            "d1000_parsize500000_cyc query" : {
+              "query" : "d1000_parsize500000_cyc query",
+              "timeSpent" : 308411,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hyponyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 8425,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Glosses" : {
+          "name" : "datalog_recursion_wordnet_Glosses",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 0,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Holonyms" : {
+          "name" : "datalog_recursion_wordnet_Holonyms",
+          "queryResults" : {
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "large_joins_dblp_dblp" : {
+          "name" : "large_joins_dblp_dblp",
+          "queryResults" : {
+            "DBLP query" : {
+              "query" : "DBLP query",
+              "timeSpent" : 467,
+              "numOfResults" : 4035,
+              "exception" : null
+            }
+          }
+        },
+        "negation_same_generation_SameGeneration_12000" : {
+          "name" : "negation_same_generation_SameGeneration_12000",
+          "queryResults" : {
+            "Negation_SameGeneration_12000 query" : {
+              "query" : "Negation_SameGeneration_12000 query",
+              "timeSpent" : 23848,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_All_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 7858,
+              "numOfResults" : 2096627,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 857,
+              "numOfResults" : 698472,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_All_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_All_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 7,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_AdjectiveClusters" : {
+          "name" : "datalog_recursion_wordnet_AdjectiveClusters",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 5,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Holonym" : {
+              "query" : "WordNet Holonym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Hypernym Synset" : {
+              "query" : "WordNet Hypernym Synset",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            },
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 1,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_cyc query",
+              "timeSpent" : 5414,
+              "numOfResults" : 250000,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize10000_sibsize2000_no_cyc",
+          "queryResults" : {
+            "d500_parsize10000_sibsize2000_no_cyc query" : {
+              "query" : "d500_parsize10000_sibsize2000_no_cyc query",
+              "timeSpent" : 4424,
+              "numOfResults" : 231598,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Troponyms" : {
+          "name" : "datalog_recursion_wordnet_Troponyms",
+          "queryResults" : {
+            "WordNet Troponym" : {
+              "query" : "WordNet Troponym",
+              "timeSpent" : 295,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc" : {
+          "name" : "datalog_recursion_same_generation_d500_parsize20000_sibsize4000_no_cyc",
+          "queryResults" : {
+            "d500_parsize20000_sibsize4000_no_cyc query" : {
+              "query" : "d500_parsize20000_sibsize4000_no_cyc query",
+              "timeSpent" : 8662,
+              "numOfResults" : 244757,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wine_wine" : {
+          "name" : "datalog_recursion_wine_wine",
+          "queryResults" : {
+            "Wine query" : {
+              "query" : "Wine query",
+              "timeSpent" : 900000,
+              "numOfResults" : 0,
+              "exception" : "TIMEOUT"
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_no_cyc",
+          "queryResults" : {
+            "d1000_parsize50000_no_cyc query" : {
+              "query" : "d1000_parsize50000_no_cyc query",
+              "timeSpent" : 10092,
+              "numOfResults" : 470194,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hypernyms" : {
+          "name" : "datalog_recursion_wordnet_Hypernyms",
+          "queryResults" : {
+            "WordNet Hypernym" : {
+              "query" : "WordNet Hypernym",
+              "timeSpent" : 758,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_transitive_closure_d1000_parsize50000_cyc" : {
+          "name" : "datalog_recursion_transitive_closure_d1000_parsize50000_cyc",
+          "queryResults" : {
+            "d1000_parsize_50000_cyc query" : {
+              "query" : "d1000_parsize_50000_cyc query",
+              "timeSpent" : 34183,
+              "numOfResults" : 1000000,
+              "exception" : null
+            }
+          }
+        },
+        "negation_win_not_win_abcdef" : {
+          "name" : "negation_win_not_win_abcdef",
+          "queryResults" : { }
+        },
+        "datalog_recursion_wordnet_All_Meronyms" : {
+          "name" : "datalog_recursion_wordnet_All_Meronyms",
+          "queryResults" : {
+            "WordNet Meronym" : {
+              "query" : "WordNet Meronym",
+              "timeSpent" : 4,
+              "numOfResults" : 0,
+              "exception" : null
+            }
+          }
+        },
+        "datalog_recursion_wordnet_Hyponyms" : {
+          "name" : "datalog_recursion_wordnet_Hyponyms",
+          "queryResults" : {
+            "WordNet Hyponym" : {
+              "query" : "WordNet Hyponym",
+              "timeSpent" : 777,
+              "numOfResults" : 315476,
+              "exception" : null
+            }
+          }
+        }
+      }
+    }
+  }
+}
